@@ -1,0 +1,2 @@
+A login page is a web page or interface in an application that prompts users to input their credentials (such as a username and password) to gain access to a system, website, or application. 
+A signup page, often referred to as a registration page, is a web page or interface within an application or website where new users can create an account or register themselves to gain access to the platform's services or features
