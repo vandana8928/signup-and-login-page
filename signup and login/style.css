@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+  -webkit-transition: background-image 1s linear;
+    transition: background-image 1s linear;  
+
+}
+h1{
+   margin-top: 3%;
+    text-align: center;
+}
+.container{
+text-align: center;
+}
+.container input{
+    margin-top: 2%;
+    width: 300px;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.container a{
+    text-align: center;
+    text-decoration: none;
+}
+ .btn{
+    background-color: hwb(123 17% 11%);
+    border-radius: 4px;
+    color:red;
+    padding: 10px 15px;
+    text-align: center;
+   
+    display: inline-block;
+    font-size: 16px;
+}
+a:hover{
+    color: red;
+}
+.formerror{
+    color:red;
+}
+p{
+    margin-top: 2%;
+    font-size:20px; 
+   
+}

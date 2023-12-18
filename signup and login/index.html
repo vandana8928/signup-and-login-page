@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <h1>SignUp Page</h1>
+    <form  name="myform" onsubmit="return validateform()" method="post">
+        <div class="container" id="name">
+        <input type="text" name="fname" placeholder="Firstname" required><span class="formerror"> </span>
+        </div>
+        <div class="container" id="lname">
+        <input type="text" name="lname" placeholder="Lastname"> <span class="formerror"> </span>
+        </div>
+        <div class="container" id="fphone">
+          <input type="phone" name="phone" placeholder="mobile number" required> <span class="formerror"> </span>
+          </div>
+        <div class="container" id="email">
+        <input type="email" name="email" placeholder="email" required ><span class="formerror"> </span>
+        </div>
+        <div class="container" id="password">
+        <input type="password"  name="password" placeholder="password" required><span class="formerror"> </span>
+        </div>
+        <div class="container" id="cpassword">
+        <input type="password" name="cpassword" placeholder="confirm-password" required><span class="formerror"> </span>
+        </div>
+        <div class="container">
+        <a href="login.html">already registered</a>
+        </div>
+        <div class="container">
+        <input class="btn" type="submit" id="signup" value="signup">
+        </div>
+        
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
+
+ 
