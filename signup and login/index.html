@@ -6,35 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SignUp Page</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d0b78618bd.js" crossorigin="anonymous"></script>
+    
   </head>
   <body>
-
-    <h1>SignUp Page</h1>
+    <section class="wrapper">
+    <div class="form-box"> 
+    <h1>SignUp</h1>
     <form  name="myform" onsubmit="return validateform()" method="post">
         <div class="container" id="name">
-        <input type="text" name="fname" placeholder="Firstname" required><span class="formerror"> </span>
-        </div>
-        <div class="container" id="lname">
-        <input type="text" name="lname" placeholder="Lastname"> <span class="formerror"> </span>
+         <i class="fa-solid fa-user"></i>
+         <input type="text" name="fname" placeholder="Full-name" required><span class="formerror"> </span>
         </div>
         <div class="container" id="fphone">
-          <input type="phone" name="phone" placeholder="mobile number" required> <span class="formerror"> </span>
+          <i class="fa-solid fa-phone"></i>
+          <input type="phone" name="phone" placeholder="Mobile-number" required> <span class="formerror"> </span>
           </div>
         <div class="container" id="email">
-        <input type="email" name="email" placeholder="email" required ><span class="formerror"> </span>
+          <i class="fa-solid fa-envelope"></i>
+          <input type="email" name="email" placeholder="Email" required ><span class="formerror"> </span>
         </div>
         <div class="container" id="password">
-        <input type="password"  name="password" placeholder="password" required><span class="formerror"> </span>
+          <i class="fa-solid fa-lock"></i>
+          <input type="password"  name="password" placeholder="Password" required><span class="formerror"> </span>
         </div>
         <div class="container" id="cpassword">
-        <input type="password" name="cpassword" placeholder="confirm-password" required><span class="formerror"> </span>
+          <i class="fa-solid fa-lock"></i>
+         <input type="password" name="cpassword" placeholder="Confirm-password" required><span class="formerror"> </span>
         </div>
-        <div class="container">
-        <a href="login.html">already registered</a>
+        <div >
+         <p>already registered?<a href="login.html">Login Now</a></p>
         </div>
-        <div class="container">
-        <input class="btn" type="submit" id="signup" value="signup">
-        </div>
+        <div>
+          <input class="btn" type="submit" id="signup" value="signup">
+        </div>     
+    </form>
+  </div>
+  <section>
         
     </form>
     <script src="index.js"></script>
